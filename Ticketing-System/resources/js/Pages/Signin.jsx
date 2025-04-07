@@ -37,7 +37,7 @@ function Signin() {
       {/* Right Section */}
       <div className="w-1/2 bg-white p-12 rounded-r-xl flex flex-col justify-center">
         <div className="flex justify-end mb-4">
-          <a href="#" className="text-sm font-medium text-black">
+          <a href="/" className="text-sm font-medium text-black">
             About Us
           </a>
         </div>
@@ -45,7 +45,7 @@ function Signin() {
         <h2 className="text-2xl font-bold text-blue-600 mb-2">Sign In</h2>
         <p className="text-sm mb-4">
           Don't have an account?{" "}
-          <a  href="/signup" className="text-blue-600 font-medium hover:underline">Signup</a>
+          <a  href="/Signup" className="text-blue-600 font-medium hover:underline">Signup</a>
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">

@@ -45,7 +45,7 @@ function Signup() {
         <h2 className="text-2xl font-bold text-blue-600 mb-2">Sign Up</h2>
         <p className="text-sm mb-4">
           Already have an account?{" "}
-          <a href="/signin" className="text-blue-600 font-medium hover:underline">Signin</a>
+          <a href="/Signin" className="text-blue-600 font-medium hover:underline">Signin</a>
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
