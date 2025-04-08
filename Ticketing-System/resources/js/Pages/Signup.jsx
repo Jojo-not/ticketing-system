@@ -2,7 +2,8 @@
 import { useState } from "react";
 import SignupImage from "../../assets/hero-3.png";
 import QtechLogo from "../../assets/qtechlogo.png";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/react";
+
 
 function Signup() {
   const [showPassword, setShowPassword] = useState(false);
@@ -37,15 +38,15 @@ function Signup() {
       {/* Right Section */}
       <div className="w-1/2 bg-white p-12 rounded-r-xl flex flex-col justify-center">
         <div className="flex justify-end mb-4">
-          <a href="#" className="text-sm font-medium text-black">
+          <Link href="/About" className="text-sm font-medium text-black">
             About Us
-          </a>
+          </Link>
         </div>
 
         <h2 className="text-2xl font-bold text-blue-600 mb-2">Sign Up</h2>
         <p className="text-sm mb-4">
           Already have an account?{" "}
-          <a href="/Signin" className="text-blue-600 font-medium hover:underline">Signin</a>
+          <Link href="/Signin" className="text-blue-600 font-medium hover:underline">Signin</Link>
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">

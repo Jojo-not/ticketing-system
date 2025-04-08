@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SignupImage from "../../assets/signup.jpg";
 import QtechLogo from "../../assets/qtechlogo.png"
+import { Link } from "@inertiajs/react";
 
 
 function Signin() {
@@ -45,7 +46,7 @@ function Signin() {
         <h2 className="text-2xl font-bold text-blue-600 mb-2">Sign In</h2>
         <p className="text-sm mb-4">
           Don't have an account?{" "}
-          <a  href="/Signup" className="text-blue-600 font-medium hover:underline">Signup</a>
+          <Link  href="/Signup" className="text-blue-600 font-medium hover:underline">Signup</Link>
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
